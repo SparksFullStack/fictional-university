@@ -10,6 +10,8 @@
 
     function university_features() {
         register_nav_menu('header-menu', 'Header Menu');
+        register_nav_menu('footer-menu-explore', 'Footer Explore Menu');
+        register_nav_menu('footer-menu-learn', 'Footer Learn Menu');
         add_theme_support('title-tag');
     }
 
