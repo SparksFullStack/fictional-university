@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes()?>>
     <head>
-        <?php wp_head(); ?>
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Fictional University</title>
+        <?php wp_head(); ?>
     </head>
     <body>
         <header class="site-header">
