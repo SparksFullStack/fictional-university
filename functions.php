@@ -9,6 +9,7 @@
     add_action('wp_enqueue_scripts', 'university_files'); // first arg loads the CSS files, second is a callback we define
 
     function university_features() {
+        register_nav_menu('header-menu', 'Header Menu');
         add_theme_support('title-tag');
     }
 
