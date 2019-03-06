@@ -16,15 +16,4 @@
     }
 
     add_action('after_setup_theme', 'university_features');
-
-    function university_post_types() {
-        register_post_type('event', array(
-            'public' => true, // makes the post visible publically
-            'labels' => array( // labels allows you to create a new label on the side of the admin page
-                'name' => 'Events'
-            )
-        ));
-    }
-
-    add_action('init', 'university_post_types') // adds a custom post type
 ?>
